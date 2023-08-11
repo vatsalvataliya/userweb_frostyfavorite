@@ -1,0 +1,222 @@
+.form label{
+color: #fff;
+margin-bottom: 0.5rem;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+
+}
+
+.form form input, form textarea{
+    margin-bottom: 1rem;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #f4f4f4;
+
+}
+
+.payment .form-payment label{
+    color: #fff;
+    margin-bottom: 0.5rem;
+    }
+    
+    .form-payment form{
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 1rem;
+        margin: auto;
+        max-width: 600px;
+        width: 100%;
+    
+    }
+    
+    .form-payment form input, form textarea{
+        margin-bottom: 1rem;
+        padding: 10px;
+        font-size: 1.2rem;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.1);
+        color: #f4f4f4;
+    
+    }
+    .place_order .form{
+    width: 120%;
+}
+
+/* .place_order{
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+} */
+.place_order_main{
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.cart_data .cart-place-order{
+    /* height: 30%; */
+    width: 90%;
+    justify-content: center;
+    /* margin-top: 100px; */
+    padding-top: 30px;
+    background-color:black;
+
+}
+
+.cart_data{
+    /* height: 30%; */
+    width: 30%;
+    margin-top: 2%;
+}
+.payment{
+    /* border: 2px solid white; */
+width: 100%;
+margin-left: 50%;
+margin-top: 30px;
+
+
+}
+.payment-type{
+/* background-color: ; */
+/* height: 50%; */
+margin-top: 30px;
+justify-content: space-around;
+display: flex;
+}
+
+.cart-place-order .cart_place_item {
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+
+    padding: 1rem;
+    margin: 20px;
+    /* margin-left: 20rem; */
+    border-radius: 10px;
+    width: 100%;
+    height: 5rem;
+    justify-items: center;
+    justify-content:space-between;
+    }
+
+    .cart_place_img{
+        display: flex;
+        justify-content: space-between;
+        width: 15rem;
+        text-align: center;
+        /* flex-direction: row; */
+    }
+
+
+
+    .cart-place-order .cart_place_item img{
+        width: 30%;
+        border-radius: 10px;
+    }
+
+
+@media screen and (max-width:1040px) {
+
+    .place_order .form{
+        width: 90%;
+        margin-left: 100%;
+        justify-content: center;
+    }
+
+    .cart_data{
+        /* height: 30%; */
+        width: 30%;
+        margin-top: 55rem;
+        margin-right: 35rem;
+    }
+
+    .cart-place-order .cart_place_item {
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+
+    padding: 1rem;
+    margin: 20px;
+    /* margin-left: 20rem; */
+    border-radius: 10px;
+    width: 300%;
+    height: 5rem;
+    }
+
+    .cart_place_img{
+        display: flex;
+        justify-content: space-between;
+        width: 15rem;
+    }
+
+
+    .cart-place-order .cart_place_item img{
+        width: 30%;
+        border-radius: 10px;
+    }
+
+    .payment{
+        /* border: 2px solid white; */
+    width: 100%;
+    margin-left: 100%;
+    margin-top: 30px;
+    /* margin-bottom: 0; */
+    
+    
+    }
+
+
+}
+
+@media screen and (max-width:1040px) {
+    .header-cart{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        position: fixed;
+        width: 25%;
+        height: 100px;
+        z-index: 10;
+        margin-top: 100%;
+        margin-left: 75%;
+        background-color: rgba(50, 47, 47, 0.918);
+        border-radius: 10%;
+        font-size: 5px;
+        display: flex;
+        flex-direction: column;
+        /* transition: 0.5s; */
+        
+    }
+    
+    .header-toggle-cart{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        position: fixed;
+        width: 80%;
+        height: 60%;
+        z-index: 10;
+        margin-top: 40%;
+        margin-left: 20%;
+        background-color: rgba(50, 47, 47, 0.918);
+        border-radius: 10%;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        /* transition: 0.5s; */
+        
+    }
+
+  }

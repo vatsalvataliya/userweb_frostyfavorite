@@ -1,0 +1,81 @@
+.hero-img4{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 150vh;
+    position: relative;
+}
+
+.hero-img4 .heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img4::before{
+    content:"" ;
+    background: url("https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+.hero-img4 h1{
+    font-size: 2.4rem;
+}
+.hero-img4 p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.hero-img4 h4{
+    margin-top: 1rem;
+    text-align: center;
+}
+.hero-img4 .link {
+    /* margin-left: 2.4rem;  */
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.hero-img4 label{
+    color: #fff;
+    margin-bottom: 0.5rem;
+    }
+    
+    .hero-img4 form{
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 2rem;
+        margin:auto;
+        max-width: 600px;
+        border: 1px solid #fff;
+        border-radius: 30px;
+    
+    }
+
+    .hero-img4 form .btn{
+        margin: 2rem;
+    }
+    
+    .hero-img4 form input, form textarea{
+        margin-bottom: 2rem;
+        padding: 5px;
+        font-size: 1.2rem;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.1);
+        color: #f4f4f4;
+    
+    }
+
+@media screen and (max-width:640px) {
+    .hero-img4 h1{
+        font-size: 2.4rem;
+    }
+}

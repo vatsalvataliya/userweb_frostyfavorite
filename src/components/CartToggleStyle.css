@@ -1,0 +1,231 @@
+.header-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    width: 9%;
+    height: 110px;
+    z-index: 10;
+    margin-top: 22%;
+    margin-left: 91%;
+    background-color: rgba(50, 47, 47, 0.918);
+    border-radius: 10%;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    /* transition: 0.5s; */
+    
+}
+
+/* .header-toggle-cart ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+.header-toggle-cart  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  .header-toggle-cart ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  .header-toggle-cart ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  } */
+
+.header-toggle-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    width: 25%;
+    height: 90%;
+    z-index: 10;
+    margin-top: 4%;
+    margin-left: 75%;
+    background-color: rgba(50, 47, 47, 0.918);
+    border-radius: 10%;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    /* transition: 0.5s; */
+    
+}
+
+.cart-qty{
+    background-color:azure ;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+}
+
+.cart-toggle-qty{
+    background-color:azure ;
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    /* scrollbar-width: thin; */
+}
+.cart-toggle-qty p{
+    color: black;
+    font-size: 15px;
+    padding: 0.1rem;
+}
+.scroller{
+    background-color: aliceblue;
+    overflow-y: scroll;
+    scroll-padding: 10px;
+    scrollbar-color: red orange;
+    height: 90%;
+    width: 100%;
+    /* height: 20rem; */
+    /* scrollbar-shadow-color: black; */
+}
+.cart-toggle-qty .cart_img img{
+    width: 30%;
+    margin-right: 10px;
+}
+.cart-toggle-qty .cart_toggle_item{
+    display: flex;
+    background-color: gray;
+    padding: 0.5rem;
+    margin: 8px;
+    border-radius: 10px;
+    
+    /* height: 20%; */
+}
+.cart-toggle-qty .cart_img{
+    display: flex;
+}
+.cart-toggle-price p{
+    color: white;
+    padding: 1rem;   
+}
+.btn_price{
+    background-color: rgb(61, 69, 77);
+    border-radius: 10px;
+}
+.cart-toggle-price{
+    background-color:rgb(41, 29, 29) ;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-price{
+    background-color:darkgray ;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+
+.cart-qty p{
+    color: black;
+}
+
+.cart_contant p{
+margin: 2px 0;
+}
+
+.header-bg{
+    background-color: rgba(0, 0, 0, 0.85);
+    transition: 0.5s;
+}
+
+/* .nav-menu{
+    display: flex;
+}
+
+.nav-menu li{
+    padding: 0 1rem;
+} 
+
+.nav-menu li a{
+    font-size: 1.2rem;
+    font-weight: 500;
+ }
+
+ .hamburger{
+    display: none;
+ }
+
+ .user{
+    display: block;
+ }
+ .user_click{
+    display: initial;
+ }
+ @media screen and (max-width:1040px) {
+    .nav-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: -3;
+        transition: 0.3s;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+
+    .nav-menu li{
+        padding: 1rem 0;
+    }
+    .nav-menu li a{
+        font-size: 2rem; 
+    }
+    .hamburger{
+        display:initial;
+     }
+  } */
+
+  @media screen and (max-width:1040px) {
+    .header-cart{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        position: fixed;
+        width: 25%;
+        height: 100px;
+        z-index: 10;
+        margin-top: 100%;
+        margin-left: 75%;
+        background-color: rgba(50, 47, 47, 0.918);
+        border-radius: 10%;
+        font-size: 5px;
+        display: flex;
+        flex-direction: column;
+        /* transition: 0.5s; */
+        
+    }
+    
+    .header-toggle-cart{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        position: fixed;
+        width: 80%;
+        height: 60%;
+        z-index: 10;
+        margin-top: 40%;
+        margin-left: 20%;
+        background-color: rgba(50, 47, 47, 0.918);
+        border-radius: 10%;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        /* transition: 0.5s; */
+        
+    }
+
+  }
